@@ -1,0 +1,16 @@
+title = "Users"
+
+[[requests]]
+method = "GET"
+name = "All users"
+url = "https://jsonplaceholder.typicode.com/users"
+
+[[requests]]
+method = "POST"
+name = "New user"
+url = "https://jsonplaceholder.typicode.com/users"
+
+[[requests]]
+method = "POST"
+name = "Update user"
+url = "https://jsonplaceholder.typicode.com/users"
