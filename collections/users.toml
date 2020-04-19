@@ -3,14 +3,14 @@ title = "Users"
 [[requests]]
 method = "GET"
 name = "All users"
-url = "https://jsonplaceholder.typicode.com/users"
+url = "/users"
 
 [[requests]]
 method = "POST"
 name = "New user"
-url = "https://jsonplaceholder.typicode.com/users"
+url = "/user"
 
 [[requests]]
-method = "POST"
+method = "PUT"
 name = "Update user"
-url = "https://jsonplaceholder.typicode.com/users"
+url = "/user"
