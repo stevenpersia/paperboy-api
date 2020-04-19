@@ -5,10 +5,8 @@ title = "Users"
 method = "GET"
 name = "All users"
 url = "/users"
-
 [[params]]
 key = "value"
-
 [[params]]
 key = "value"
 
@@ -23,6 +21,5 @@ url = "/user"
 method = "PUT"
 name = "Update user"
 url = "/user"
-
 [[queries]]
 key = "value"
