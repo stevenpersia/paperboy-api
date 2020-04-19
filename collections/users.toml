@@ -1,3 +1,4 @@
+---
 title = "Users"
 
 [[requests]]
@@ -14,3 +15,4 @@ url = "https://jsonplaceholder.typicode.com/users"
 method = "POST"
 name = "Update user"
 url = "https://jsonplaceholder.typicode.com/users"
+---
