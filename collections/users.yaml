@@ -1,0 +1,18 @@
+title: Users
+requests:
+  - method: GET
+    name: All users
+    url: /users
+    params:
+      - key: value
+      - key: value
+      
+  - method: POST
+    name: New user
+    url: /user
+    
+  - method: PUT
+    name: Update user
+    url: /user
+    queries:
+      - key: value
