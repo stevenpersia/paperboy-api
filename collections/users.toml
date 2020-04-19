@@ -1,16 +1,28 @@
 title = "Users"
 
+# Get all users
 [[requests]]
 method = "GET"
 name = "All users"
 url = "/users"
 
+[[params]]
+key = "value"
+
+[[params]]
+key = "value"
+
+# Create new user
 [[requests]]
 method = "POST"
 name = "New user"
 url = "/user"
 
+# Update user
 [[requests]]
 method = "PUT"
 name = "Update user"
 url = "/user"
+
+[[queries]]
+key = "value"
