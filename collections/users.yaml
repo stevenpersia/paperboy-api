@@ -2,17 +2,18 @@ title: Users
 requests:
   - method: GET
     name: All users
-    url: /users
-    params:
-      - key: value
-      - key: value
-      
+    url: users/:status/:age
+    auth: true
+
   - method: POST
     name: New user
     url: /user
-    
+
   - method: PUT
     name: Update user
     url: /user
-    queries:
-      - key: value
+    auth: true
+
+  - method: DELETE
+    name: Delete user
+    url: /user
