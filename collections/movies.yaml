@@ -1,0 +1,14 @@
+title: Movies
+requests:
+  - method: GET
+    name: All movies
+    url: movies?title&year&age
+
+  - method: POST
+    name: New movie
+    url: /movie
+    auth: true
+
+  - method: DELETE
+    name: Delete movie
+    url: /movie
