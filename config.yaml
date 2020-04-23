@@ -1,5 +1,0 @@
-api_version: v1
-base_url: 'https://localhost:3000'
-tokens:
-  dev: ''
-  prod: ''
