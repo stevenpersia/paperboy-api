@@ -2,13 +2,18 @@ title: Movies
 requests:
   - method: GET
     name: All movies
-    url: movies?title&year&age
+    url: movies
+    query:
+      - key: title
+      - key: rating
 
   - method: POST
-    name: New movie
-    url: /movie
+    name: Update movie
+    url: movie
     auth: true
+    param:
+      - key: id*
 
   - method: DELETE
     name: Delete movie
-    url: /movie
+    url: movie
